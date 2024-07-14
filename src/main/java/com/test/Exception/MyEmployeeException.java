@@ -12,7 +12,7 @@ public class MyEmployeeException extends RuntimeException {
 	private static final long serialVersionUID = 1406566034805293159L;
 
 	public MyEmployeeException(String msg) {
-		super(msg);
+ 		super(msg);
 	}
 
 }

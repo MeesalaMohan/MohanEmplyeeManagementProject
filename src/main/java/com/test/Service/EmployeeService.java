@@ -69,7 +69,7 @@ public class EmployeeService {
 	}
 
 // get by id method
-	public EmpDto getbyid(Integer id) {
+	public EmpDto getbyid(Integer id) throws NullPointerException {
 		// TODO Auto-generated method stub
 		EmpDto edto = null;
 
